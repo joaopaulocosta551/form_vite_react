@@ -1,9 +1,18 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const ButtonConfir = styled.button`
-    width: 60px;
-    height: 48px;
-    border: none;
-    background-color: #ef5a5a;
+
+
+export const ButttonLogin = styled.button`
+    width: 250px;
+    height: 30px;
     border-radius: 5px;
+    border: none;
+    background-color: rgb(17, 31, 67);
+    color: white;
+    font-size: 12px;
+    
+    &:hover{
+        background-color:  rgba(17, 31, 67, 0.8);
+        cursor: pointer;
+    }
 `

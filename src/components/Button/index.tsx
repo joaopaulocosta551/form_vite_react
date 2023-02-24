@@ -1,5 +1,9 @@
-import {ButtonConfir} from './styles'
+import { ButttonLogin } from "./styles";
 
-export function Button() {
-    return <ButtonConfir />
+interface Iprops{
+    value: string;
+}
+
+export function Button({value}: Iprops) {
+    return <ButttonLogin>{value}</ButttonLogin>
 }
