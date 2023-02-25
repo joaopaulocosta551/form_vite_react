@@ -19,7 +19,7 @@ function App() {
       <section className="inputs">
         <Input type="name" placeholder="Name" />
         <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" hasEye={true} />
+        <Input type="password" placeholder="Password" hasEye={true} capslockDetect={true} />
         <section className="buttonLink">
           <Button value="Sign Up"/>
           <p>Already have an account? <a href="#">Log In</a></p>

@@ -15,4 +15,4 @@ export const ButttonLogin = styled.button`
         background-color:  rgba(17, 31, 67, 0.8);
         cursor: pointer;
     }
-`
+`;
