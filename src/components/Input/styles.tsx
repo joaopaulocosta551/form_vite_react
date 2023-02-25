@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const InputCustom = styled.input`
-  width: 250px;
+  width: 100%;
   height: 30px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   outline: none;
-  border: solid 1px rgb(17, 31, 67);
+  border: none;
 
   &::placeholder {
     font-size: 12px;
@@ -15,18 +15,18 @@ export const InputCustom = styled.input`
 `;
 
 export const DivInputCUstom = styled.div`
+  width: 250px;
+  padding: 3px 10px;
   display: flex;
-  align-items: center;
-  position: relative;
+  border: solid 1px rgb(17, 31, 67);
+  border-radius: 5px;
+
+  & svg{
+    cursor: pointer;
+  }
 `;
 
-export const TitleCaps = styled.div`
-  width: 200px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 24px;
-  top: 120px;
+export const TitleCaps = styled.span`
+  font-size: 10px;
+  color: red;
 `;
